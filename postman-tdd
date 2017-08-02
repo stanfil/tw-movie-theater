@@ -1,0 +1,17 @@
+api-test:
+1.
+GET localhost:8081/movies/searchByGenreid?genreid=1
+response correct
+2.
+GET localhost:8081/movies/all
+response correct
+3.
+GET localhost:8081/movies?id=1301171
+response correct
+4.
+GET localhost:8081/movies/searchByMovieid?movieid=1301171
+response correct
+5.
+GET localhost:8081/movie_search?movie_name=鱼
+response correct
+
